@@ -1,0 +1,11 @@
+<launch>
+    <!-- Specify the scan topic as a parameter, default is '/scan' -->
+    <arg name="scan_topic" default="/scan" />
+
+    <!-- Launch adaptive clustering node -->
+    <node name="adaptive_clustering_node" pkg="adaptive_clustering_2D" type="adaptive_clustering.py" output="screen">
+        <param name="scan_topic" type="str" value="$(arg scan_topic)"/>
+        <param name="cluster_size_min" type="int" value="3"/>
+        <param name="tolerance_factor" type="double" value="0.1"/>
+    </node>
+</launch>
