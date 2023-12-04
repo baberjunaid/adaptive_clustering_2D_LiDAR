@@ -23,8 +23,7 @@ class AdaptiveClustering:
         self.clusters = self.adaptive_clustering(data)
         self.publish_markers(data)
 
-    # ... (other parts of your code)
-
+   
     def adaptive_clustering(self, data):
         clusters = []
         cluster = []
