@@ -66,8 +66,17 @@ roslaunch adaptive_clustering_2D adaptive_clustering.launch scan_topic:=/my_cust
 
 Adjust these parameters in the launch file as needed.
 
-## Acknowledgments
-
-- Inspired by the need for adaptive clustering in robotics applications.
+## Citations
+```bash
+@article{gomez2023efficient,
+title={Efficient Detection and Tracking of Human Using 3D LiDAR Sensor},
+author={G{'o}mez, J. and Aycard, O. and Baber, J.},
+journal={Sensors},
+volume={23},
+number={10},
+pages={4720},
+year={2023},
+}
+```
 
 
