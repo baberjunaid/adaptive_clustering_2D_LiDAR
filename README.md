@@ -4,6 +4,10 @@
 
 This ROS package implements adaptive clustering for 2D LiDAR data. The adaptive clustering algorithm groups nearby points in the LiDAR scan based on adaptive thresholds, providing a more accurate representation of objects in the environment.
 
+## Demo
+
+![Demo GIF](demo.gif)
+
 ### Topics
 - ROS
 - LiDAR
